@@ -11,7 +11,7 @@ import SwiftUI
 struct RGBApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(redValue: 1.0, greenValue: 1.0, blueValue: 1.0)
         }
     }
 }
