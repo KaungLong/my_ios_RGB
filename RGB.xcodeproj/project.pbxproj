@@ -11,6 +11,7 @@
 		413B9ADF28E1D43D00B49195 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413B9ADE28E1D43D00B49195 /* ContentView.swift */; };
 		413B9AE128E1D43E00B49195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413B9AE028E1D43E00B49195 /* Assets.xcassets */; };
 		413B9AE428E1D43E00B49195 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413B9AE328E1D43E00B49195 /* Preview Assets.xcassets */; };
+		419A9AD929ACD58200D8A5DC /* my_ios_RGB_demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 419A9AD829ACD58200D8A5DC /* my_ios_RGB_demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		413B9ADE28E1D43D00B49195 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		413B9AE028E1D43E00B49195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		413B9AE328E1D43E00B49195 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		419A9AD829ACD58200D8A5DC /* my_ios_RGB_demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_ios_RGB_demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		413B9AD028E1D43D00B49195 = {
 			isa = PBXGroup;
 			children = (
+				419A9AD729ACD56A00D8A5DC /* Demo */,
 				413B9ADB28E1D43D00B49195 /* RGB */,
 				413B9ADA28E1D43D00B49195 /* Products */,
 			);
@@ -65,6 +68,14 @@
 				413B9AE328E1D43E00B49195 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		419A9AD729ACD56A00D8A5DC /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				419A9AD829ACD58200D8A5DC /* my_ios_RGB_demo.gif */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				413B9AE428E1D43E00B49195 /* Preview Assets.xcassets in Resources */,
 				413B9AE128E1D43E00B49195 /* Assets.xcassets in Resources */,
+				419A9AD929ACD58200D8A5DC /* my_ios_RGB_demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
